@@ -1,21 +1,49 @@
-* {
+.content {
+    width: 100%;
     display: flex;
-    
-    font-family: 'Lexend Deca', sans-serif;
+    border: 2px solid black;
+    justify-content: center;
+    margin-top: 100px;
 }
 
 .orange {
+    width: 20%;
     flex-direction: column;
+    background-color: #e38826;
+    padding-left: 50px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    border-radius: 5px;
 }
 
 .blue {
+    width: 20%;
     flex-direction: column;
+    background-color: #276970;
+    padding-left: 50px;
+    padding-top: 50px;
 }
 
 .green {
+    width: 20%;
     flex-direction: column;
-}
+    background-color: #154241;
+    padding-left: 50px;
+    padding-top: 50px;
+}    
 
 .title {
-    font-family: 'Big Shoulders Display', cursive;
+    font-family: 'Big Shoulders Display';
+    border: 1px solid black;
+    font-size: 50px;
+    color: aliceblue;
+}
+
+.paragraph {
+    font-family: 'Lexend Deca', sans-serif;
+    border: 2px solid red;
+    font-size: 15px;
+    color: white;
+    font-weight: 600;
 }
