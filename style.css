@@ -1,0 +1,21 @@
+* {
+    display: flex;
+    
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+.orange {
+    flex-direction: column;
+}
+
+.blue {
+    flex-direction: column;
+}
+
+.green {
+    flex-direction: column;
+}
+
+.title {
+    font-family: 'Big Shoulders Display', cursive;
+}
