@@ -76,3 +76,13 @@
 .mg {
     color: #154241;
 }
+
+.link {
+    text-align: center;
+    font-size: 13px;
+}
+
+.link a {
+    text-decoration: none;
+    color: #2980b9; 
+}
